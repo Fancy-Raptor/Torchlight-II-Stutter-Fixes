@@ -4,7 +4,7 @@ Torchlight II Stutter Fixes (GOG version)
 Two parts. Both go in the game folder (the one with Torchlight2.exe).
 
 1. tl2fix.exe - Patch your own game files. Your original files are saved as Torchlight2.exe.original and OgreMain.dll.original.
-- Torchlight2.exe: character models (paperdoll) don't compare every vertex against every other vertex when welding armour seams. Now it checks by proximity which is a lot faster.
+- Torchlight2.exe: character models (paperdoll) don't compare every vertex against every other vertex when welding armor seams. Now it checks by proximity which is a lot faster.
 - OgreMain.dll: the game clock no longer pins the thread to one CPU core on every read which was causing uneven frame times.
    
 The patcher identifies each file by its SHA-256 before changing anything and checks the results the same way.
