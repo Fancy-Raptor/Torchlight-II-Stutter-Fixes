@@ -14,7 +14,7 @@ Just drop it into the game folder. It's a byte-identical output and patches noth
 On my machine stutter time per minute of play fell about 40%. Hitches of 50 ms or more went from about 3 per minute to under 1. tl2deflate halves the decompression part of what's left.
 
 Compatibility
-- GOG version only (Torchlight2.exe, May 2016). What you do with your gog exe is your business and I'm not trying to mess with steam drm here. 
+- GOG version only [v 1.25.9.5]. What you do with your gog exe is your business and I'm not trying to mess with steam drm here. 
 - The OgreMain.dll fix also works on Steam (that file is identical), and tl2fix applies just that part.
 - Nothing changes game logic or data. The fixes give identical results.
 - Your antivirus might flag the version.dll because it stands in for a Windows DLL. Source is included in this repo.
