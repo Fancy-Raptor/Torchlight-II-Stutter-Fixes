@@ -27,7 +27,7 @@ Somebody tried before to patch the vertex's weight check with Chat GPT by compar
 As you can probably guess, Claude did all of the heavy lifting on this. I just made a logger to verify memory addresses and timestamp the clock functions. If you'd like to avoid the slop factor that makes perfect sense. It's worth mentioning the token usage was low, the source is included in the archive, and deep code dives that don't encroach on the work of artists is probably one of the less disruptive uses of AI. 
 
 tl;dr: 
-tl2fix contains targeted changes with only byte differences and no game code. 
+Patcher change byte differences and no game code. Game run better.
 
 Additional attribution:
 MIT licence. libdeflate: MIT (Eric Biggers).
