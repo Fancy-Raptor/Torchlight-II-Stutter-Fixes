@@ -1,7 +1,7 @@
 Torchlight II Stutter Fixes (GOG version)
 ========================================
 The patcher identifies each file by its SHA-256 before changing anything and checks the results the same way.
-If you used the earlier patched Torchlight2.exe that was passed around, this also updates it. That version had a bug in its weight check (see below).
+If you used the earlier patched Torchlight2.exe that people passed around, this also updates it. That version had a bug in its weight check (see below).
 
 Two parts. Both go in the game folder (the one with Torchlight2.exe).
 1. tl2fix.exe - Patch your own game files. Your original files are saved as Torchlight2.exe.original and OgreMain.dll.original.
